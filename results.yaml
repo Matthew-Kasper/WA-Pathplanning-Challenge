@@ -1,5 +1,5 @@
 Bevy:
-  length: 27.21320343559643
+  length: 26.38477631085024
   risk: 16.0
   valid: true
 Chatter:
@@ -7,7 +7,7 @@ Chatter:
   risk: 5.0
   valid: true
 Conclave:
-  length: 35.21320343559642
+  length: 30.242640687119287
   risk: 23.0
   valid: true
 Coronation:
@@ -15,8 +15,8 @@ Coronation:
   risk: 28.0
   valid: true
 Deceit:
-  length: 40.24264068711928
-  risk: 27.0
+  length: 38.24264068711928
+  risk: 28.0
   valid: true
 Flamboyance:
   length: 18.071067811865476
@@ -31,8 +31,8 @@ Knot:
   risk: 27.0
   valid: true
 Mewing:
-  length: 15.313708498984763
-  risk: 2.0
+  length: 17.313708498984763
+  risk: 3.0
   valid: true
 Wisdom:
   length: 48.76955262170046

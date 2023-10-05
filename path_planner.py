@@ -14,7 +14,6 @@ from queue import PriorityQueue
 
 import numpy as np
 from typing import Dict
-import structlinks;
 
 import map_info
 from map_info import Coordinate, Destination, MapInfo
@@ -106,13 +105,10 @@ class PathPlanner:
         total_risk = 0
 
         # How much weight risk has in cost
-        RISK_GAIN = .7
-
-        # How much weight segment length has in cost
-        LENGTH_GAIN = .2
+        RISK_GAIN = 1
 
         # How much weight being close to goal has in cost
-        TARGET_GAIN = 1
+        TARGET_GAIN = 1.45
 
         for step in segment_steps:
             step_risk = self.map_info.risk_zones[step[0]][step[1]]
@@ -129,8 +125,8 @@ class PathPlanner:
         segment_length = math.sqrt(math.pow(starting_node[0] - ending_node[0], 2) +
                                    math.pow(starting_node[1] - ending_node[1], 2))
 
-        # Cost is a combination of total risk, segment length, and distance to goal
-        return int(total_risk * RISK_GAIN) + int(segment_length * LENGTH_GAIN) + int(distance_to_goal * TARGET_GAIN)
+        # Cost is a combination of total risk and distance to goal
+        return int(total_risk * RISK_GAIN) + int(distance_to_goal * TARGET_GAIN)
 
     @staticmethod
     # Takes a list of nodes and transforms it into a usable coordinate path. Nodes consists of a list of coordinates
