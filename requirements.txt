@@ -1,3 +1,4 @@
 numpy==1.21.0
 matplotlib==3.3.3
+structlinks==1.1.4
 
