@@ -44,10 +44,6 @@ class PathPlannerTester:
         return True
 
     @staticmethod
-    def plan_paths_test():
-        return True
-
-    @staticmethod
     def generate_map_info():
         parser = argparse.ArgumentParser()
         parser.add_argument("--map-info-path", required=False, type=str, default="map_info.yaml")
@@ -64,7 +60,6 @@ class PathPlannerTester:
         # Run all of the tests
         generate_full_path_results = PathPlannerTester.generate_full_path_test()
         evaluate_path_segment_results = PathPlannerTester.evaluate_path_segment_test()
-        plan_paths_result = PathPlannerTester.plan_paths_test()
 
         # Print Results
         if generate_full_path_results:
@@ -76,13 +71,6 @@ class PathPlannerTester:
             print("Evaluate Path Segment Test: PASSED")
         else:
             print("Evaluate Path Segment Test: FAILED")
-
-        if plan_paths_result:
-            print("Plan Paths Test: PASSED")
-        else:
-            print("Plan Paths Test: FAILED")
-
-
 
 if __name__ == "__main__":
     PathPlannerTester.run_tests()
