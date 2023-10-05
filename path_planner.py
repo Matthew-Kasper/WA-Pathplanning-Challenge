@@ -122,9 +122,6 @@ class PathPlanner:
         distance_to_goal = math.sqrt(math.pow(goal_node[0] - ending_node[0], 2) + \
                                     math.pow(goal_node[1] - ending_node[1], 2))
 
-        segment_length = math.sqrt(math.pow(starting_node[0] - ending_node[0], 2) +
-                                   math.pow(starting_node[1] - ending_node[1], 2))
-
         # Cost is a combination of total risk and distance to goal
         return int(total_risk * RISK_GAIN) + int(distance_to_goal * TARGET_GAIN)
 
