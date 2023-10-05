@@ -1,74 +1,40 @@
 Bevy:
-  errors:
-  - Not all path elements are integers
-  - Path enters keep out zone
-  - Path steps do not fall on an 8 connected grid
-  length: 23.706539182259398
-  risk: 5.0
-  valid: false
+  length: 27.21320343559643
+  risk: 16.0
+  valid: true
 Chatter:
-  errors:
-  - Not all path elements are integers
-  - Path steps do not fall on an 8 connected grid
-  length: 11.6619037896906
+  length: 12.485281374238571
   risk: 5.0
-  valid: false
+  valid: true
 Conclave:
-  errors:
-  - Not all path elements are integers
-  - Path enters keep out zone
-  - Path steps do not fall on an 8 connected grid
-  length: 26.68332812825267
-  risk: 5.0
-  valid: false
+  length: 35.21320343559642
+  risk: 23.0
+  valid: true
 Coronation:
-  errors:
-  - Not all path elements are integers
-  - Path enters keep out zone
-  - Path steps do not fall on an 8 connected grid
-  length: 44.384682042344295
-  risk: 4.0
-  valid: false
+  length: 48.970562748477136
+  risk: 28.0
+  valid: true
 Deceit:
-  errors:
-  - Not all path elements are integers
-  - Path enters keep out zone
-  - Path steps do not fall on an 8 connected grid
-  length: 37.12142238654118
-  risk: 5.0
-  valid: false
+  length: 40.24264068711928
+  risk: 27.0
+  valid: true
 Flamboyance:
-  errors:
-  - Not all path elements are integers
-  - Path steps do not fall on an 8 connected grid
-  length: 16.76305461424021
+  length: 18.071067811865476
   risk: 0.0
-  valid: false
+  valid: true
 Flotilla:
-  errors:
-  - Not all path elements are integers
-  - Path steps do not fall on an 8 connected grid
-  length: 25.238858928247925
-  risk: 7.0
-  valid: false
+  length: 26.798989873223334
+  risk: 16.0
+  valid: true
 Knot:
-  errors:
-  - Not all path elements are integers
-  - Path steps do not fall on an 8 connected grid
   length: 50.0
-  risk: 4.0
-  valid: false
+  risk: 27.0
+  valid: true
 Mewing:
-  errors:
-  - Not all path elements are integers
-  - Path steps do not fall on an 8 connected grid
-  length: 12.649110640673518
-  risk: 4.0
-  valid: false
+  length: 15.313708498984763
+  risk: 2.0
+  valid: true
 Wisdom:
-  errors:
-  - Not all path elements are integers
-  - Path steps do not fall on an 8 connected grid
-  length: 46.04345773288535
-  risk: 5.0
-  valid: false
+  length: 48.76955262170046
+  risk: 21.0
+  valid: true
